@@ -1,0 +1,19 @@
+
+<head>
+    <style>
+    span {
+        color:blue
+    }
+    </style>
+</head>
+<body>
+<h3>id:
+    <span>{{ info.id }}</span>
+</h3>
+<h3>email:
+    <span>{{ info.email }}</span>
+</h3>
+</body>
+<script>
+    if (!localStorage.userToken) localStorage.userToken = "{{ token }}"
+</script>

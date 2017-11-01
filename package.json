@@ -1,0 +1,36 @@
+{
+  "name": "passport-basic",
+  "version": "1.0.0",
+  "description": "learn how to use passport local/facbook/google in node.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -S"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phambaonam/passport-basic.git"
+  },
+  "keywords": [
+    "nodejs",
+    "passport"
+  ],
+  "author": "Pham Bao Nam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phambaonam/passport-basic/issues"
+  },
+  "homepage": "https://github.com/Phambaonam/passport-basic#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.1.0",
+    "nunjucks": "^3.0.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "passport-local": "^1.0.0",
+    "pg-promise": "^7.0.2"
+  }
+}
